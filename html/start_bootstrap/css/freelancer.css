@@ -322,6 +322,38 @@ footer .footer-below {
   background: white;
   border: solid 2px white;
 }
+.btn-white {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-white:hover,
+.btn-white:focus,
+.btn-white:active,
+.btn-white.active {
+  color: #18BC9C;
+  background: white;
+  border: solid 2px white;
+}
+.btn-green {
+  color: #2C3E50;
+  font-size: 20px;
+  border: solid 2px #2C3E50;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-green:hover,
+.btn-green:focus,
+.btn-green:active,
+.btn-green.active {
+  color: white;
+  background: #2C3E50;
+  border: solid 2px #2C3E50;
+}
 .btn-primary {
   color: white;
   background-color: #2C3E50;
