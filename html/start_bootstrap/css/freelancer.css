@@ -31,7 +31,8 @@ h6 {
   font-weight: 700;
 }
 hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.star-dark {
   padding: 0;
   border: none;
   border-top: solid 5px;
@@ -40,7 +41,8 @@ hr.star-primary {
   margin: 25px auto 30px;
 }
 hr.star-light:after,
-hr.star-primary:after {
+hr.star-primary:after,
+hr.star-dark:after {
   content: "\f005";
   font-family: FontAwesome;
   display: inline-block;
@@ -49,11 +51,16 @@ hr.star-primary:after {
   font-size: 2em;
   padding: 0 0.25em;
 }
-hr.star-light {
+hr.star-light,
+hr.star-dark {
   border-color: white;
 }
 hr.star-light:after {
   background-color: #18BC9C;
+  color: white;
+}
+hr.star-dark:after {
+  background-color: #2C3E50;
   color: white;
 }
 hr.star-primary {
@@ -92,7 +99,7 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   header .container {
-    padding-top: 200px;
+    padding-top: 130px;
     padding-bottom: 100px;
   }
   header .intro-text .name {
@@ -545,4 +552,17 @@ fieldset[disabled] .btn-success.active {
 }
 div#maincontent {
   outline: none;
+}
+#myCarousel {
+  margin-top: 50px;
+  display: inline-block;
+}
+#slideshow {
+  margin: 0 auto;
+  height: 400px;
+  width: 650px;
+}
+.item {
+  max-height: 400px;
+  max-width: 650px;
 }
